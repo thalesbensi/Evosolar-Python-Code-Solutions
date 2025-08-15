@@ -31,7 +31,7 @@ with open(formatted_file, 'r', newline='', encoding='utf-8') as csvfile:
     print(f"Cidade: {city}")
     print(f"Total de Leads: {counter}")
     print("=" * 50)
-    print(f"{'Creative':<30} | {'Quantidade':>10}")
+    print(f"{'Criativo':<30} | {'Quantidade':>10}")
     print("-" * 50)
 
     for creative, count in creatives_dict.items():
