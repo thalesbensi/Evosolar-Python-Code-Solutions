@@ -6,7 +6,7 @@ formatted_file = file + ".csv"
 
 with open(formatted_file, 'r', newline='', encoding='utf-8') as csvfile:
     reader = csv.reader(csvfile)
-    counter = 0
+    counter = -1
     creatives_dict = {} 
     city = None   
     
